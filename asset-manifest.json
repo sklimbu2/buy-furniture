@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/buy-furniture/static/css/main.bfb11db1.css",
+    "main.js": "/buy-furniture/static/js/main.a65faf7d.js",
+    "static/media/light.jpg": "/buy-furniture/static/media/light.c886edc17ec852e9ca74.jpg",
+    "static/media/table.jpg": "/buy-furniture/static/media/table.9d55fabc6caff256182c.jpg",
+    "static/media/light2.webp": "/buy-furniture/static/media/light2.2850b7d6b6fcd8e1d86a.webp",
+    "static/media/chair.jpeg": "/buy-furniture/static/media/chair.46b004e4ea948099e2d3.jpeg",
+    "index.html": "/buy-furniture/index.html",
+    "main.bfb11db1.css.map": "/buy-furniture/static/css/main.bfb11db1.css.map",
+    "main.a65faf7d.js.map": "/buy-furniture/static/js/main.a65faf7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfb11db1.css",
+    "static/js/main.a65faf7d.js"
+  ]
+}
