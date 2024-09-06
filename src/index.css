@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin:0;
+}
+:root{
+  --PrimaryColor: #e0edf5;
+  --SecondaryColor: #f2f7fa;
+  --BlackColor : #161616;
+  --WhiteColor: #ffff;
+  --BackgroundColor: #f5f5f5;
+}
+.app{
+  background-color:var(--WhiteColor);
+  max-width:90vw;
+  margin: auto;
+  box-sizing: content-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content{
+  background-color:var(--BackgroundColor);
+  margin:auto;
+}
+li{
+  list-style: none;
+}
+.flex-space-between{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-evenly{
+  display:flex;
+  justify-content: space-evenly;
+}
+.icon{
+  text-align: center;
+}
+.btn{
+    background-color:var(--BlackColor);
+    color: #ffff;
+    padding:8px 14px;
+    border:none;
+    font-weight: 300;
+}
+.squareBox{
+  background-color: #ffff;
+  height:20px;
+  width:20px;
+  position: absolute;
+}
+.Box1{
+  top:0;
+  left:0;
+}
+.Box2{
+  top:20px;
+  left:20px;
+}
+.Box3{
+  bottom:20px;
+  right:20px;
+}
+.Box4{
+  bottom:0;
+  right:0;
 }

@@ -1,0 +1,58 @@
+.wallpaper1{
+    display:flex;
+}
+.poster{
+    width:50%;
+    height:400px;
+    position:relative;
+}
+
+
+.post1{
+    background-color: var(--PrimaryColor);
+}
+.post2{
+    background-color: var(--SecondaryColor);
+}
+.post1Content{
+    position: absolute;
+    top:60px;
+    left:60px;
+    letter-spacing: 4px;
+}
+.post1Content h5{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.post1Content h2{
+    font-size: 50px;
+    font-weight:300;
+}
+.wallpaperBtn{
+    margin-top:30px;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    background-color:#cde5ef;
+}
+.circle1{
+    width:150px;
+    height:150px;
+    top: 20%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.circle2{
+    height: 40px;
+    width: 40px;
+    top: 10%;
+    right:25%;
+}
+.circle3{
+    height:20px;
+    width:20px;
+    left:40%;
+    bottom:25%;
+}

@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--BlackColor);
+    color:var(--WhiteColor);
+    padding: 100px 80px;
+    position:relative;
+}
+.footerTop{
+    align-items: flex-start;
+}
+.footerList{
+    line-height: 30px;
+}
+.footer li{
+    font-size: 16px;
+    font-weight: 300;
+}
+.address{
+    font-size: 12px;
+}
+.footerBottom{
+    position:relative;
+    top:70px;
+}

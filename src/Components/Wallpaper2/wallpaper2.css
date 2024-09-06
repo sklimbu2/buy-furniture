@@ -1,0 +1,39 @@
+.wallpaper2{
+    font-weight: 300;
+    padding:60px 0px;
+    background-color: var(--PrimaryColor);
+    text-align: center;
+    position:relative;
+}
+.wallpaper2Products{
+    flex-wrap: wrap;
+    padding: 0rem 1.5rem;
+}
+.wallpaper2Product{
+    margin-bottom: 1rem;
+}
+.wallpaper2 h2{
+    padding-bottom:40px;
+    font-size: 40px;
+    font-weight:300;
+}
+.wallpaper2 img{
+    width:200px;
+    height:auto;
+}
+.productPrice h3{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.productPrice h4{
+    font-weight: 300;
+    font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+.footerTop{
+    flex-direction: column;
+}
+}
+
+

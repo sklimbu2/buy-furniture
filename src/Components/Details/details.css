@@ -1,0 +1,23 @@
+.details {
+    height:500px;
+    display:grid;
+    
+}
+.detailsContent{
+    width:500px;
+    place-self: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    
+}
+.detailsContent h2{
+    margin-bottom:25px;
+    font-size: 50px;
+    font-weight:300;
+}
+.detailsContent p{
+    line-height: 25px;
+}
+.detailsContentBtn{
+    margin-top:30px;
+}
